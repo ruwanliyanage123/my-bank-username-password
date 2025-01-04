@@ -19,4 +19,8 @@ public class LoanService {
          List<LoanEntity> loanEntityList = loanRepository.findAll();
          return loanEntityList.stream().map(LoanDTO::new).collect(Collectors.toList());
     }
+
+    public void deleteLoanById(Integer loanId) {
+        loanRepository.deleteById(loanId);
+    }
 }
