@@ -1,7 +1,6 @@
-package com.bodyguard.mybank.userpass.mybank_username_password.dto;
+package com.bodyguard.mybank.userpass.dto;
 
-import com.bodyguard.mybank.userpass.mybank_username_password.entity.GoldEntity;
-import com.bodyguard.mybank.userpass.mybank_username_password.entity.LoanEntity;
+import com.bodyguard.mybank.userpass.entity.GoldEntity;
 
 public class GoldDTO {
     private Integer goldId;

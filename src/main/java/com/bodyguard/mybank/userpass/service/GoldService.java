@@ -1,8 +1,8 @@
-package com.bodyguard.mybank.userpass.mybank_username_password.service;
+package com.bodyguard.mybank.userpass.service;
 
-import com.bodyguard.mybank.userpass.mybank_username_password.dto.GoldDTO;
-import com.bodyguard.mybank.userpass.mybank_username_password.entity.GoldEntity;
-import com.bodyguard.mybank.userpass.mybank_username_password.repository.GoldRepository;
+import com.bodyguard.mybank.userpass.dto.GoldDTO;
+import com.bodyguard.mybank.userpass.entity.GoldEntity;
+import com.bodyguard.mybank.userpass.repository.GoldRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

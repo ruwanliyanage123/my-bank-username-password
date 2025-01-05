@@ -1,4 +1,4 @@
-package com.bodyguard.mybank.userpass.mybank_username_password.entity;
+package com.bodyguard.mybank.userpass.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

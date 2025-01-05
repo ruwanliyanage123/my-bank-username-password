@@ -1,8 +1,8 @@
-package com.bodyguard.mybank.userpass.mybank_username_password.service;
+package com.bodyguard.mybank.userpass.service;
 
-import com.bodyguard.mybank.userpass.mybank_username_password.dto.LoanDTO;
-import com.bodyguard.mybank.userpass.mybank_username_password.entity.LoanEntity;
-import com.bodyguard.mybank.userpass.mybank_username_password.repository.LoanRepository;
+import com.bodyguard.mybank.userpass.dto.LoanDTO;
+import com.bodyguard.mybank.userpass.entity.LoanEntity;
+import com.bodyguard.mybank.userpass.repository.LoanRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

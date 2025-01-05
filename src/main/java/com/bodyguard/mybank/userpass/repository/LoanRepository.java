@@ -1,6 +1,6 @@
-package com.bodyguard.mybank.userpass.mybank_username_password.repository;
+package com.bodyguard.mybank.userpass.repository;
 
-import com.bodyguard.mybank.userpass.mybank_username_password.entity.LoanEntity;
+import com.bodyguard.mybank.userpass.entity.LoanEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
