@@ -2,6 +2,7 @@ package com.bodyguard.mybank.userpass.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.stereotype.Component;
 
@@ -12,7 +13,8 @@ import java.util.Optional;
 
 @Component
 public class JwtUtil {
-    private String secretKey = "1234";
+    @Value("${jwt.secret}")
+    private String secretKey;
 
     public Optional<String> extractUsername(String token) {
         if(!isTokenExpired(token)){
